@@ -1,5 +1,5 @@
-{% set version = "12.6.1" %}
-{% set sha256 = "ca32230149e19dc3d197d34799cfa6308a6e96d4ebb7cd4b995ff635b1e74f04" %}
+{% set version = "12.7.0" %}
+{% set sha256 = "67fcee68c7f35bcf6348b52de3d92e8dabd80986d53fa3d5747aa738ae220f3a" %}
 
 package:
   name: azure-storage-files-shares-cpp
