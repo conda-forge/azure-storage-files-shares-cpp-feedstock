@@ -1,5 +1,5 @@
-{% set version = "12.11.0" %}
-{% set sha256 = "4f28c6e24721ddf1c48ab1a7a01c1e5088efd510b531cab34e5763449a3f0eb4" %}
+{% set version = "12.12.0" %}
+{% set sha256 = "d237f987c435361362f2e72fe85fe91607ef4034c4fef99e64e0317e3988bc0f" %}
 
 package:
   name: azure-storage-files-shares-cpp
@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage("azure-storage-files-shares-cpp", max_pin="x.x.x") }}
 
